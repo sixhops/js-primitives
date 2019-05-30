@@ -15,4 +15,4 @@ var friends = [
     'Harriet'
   ];
 
-  console.log(friends.sort());
+  console.log(friends.sort().join(' '));

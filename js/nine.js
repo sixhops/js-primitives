@@ -5,3 +5,6 @@ var myWord = word.split('');
 myWord.splice(2, 1, 'i');
 
 console.log(myWord.join(''));
+
+
+// could also use String.prototype.replace

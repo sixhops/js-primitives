@@ -4,4 +4,4 @@ var friends = 'Moe,Larry,Curly,Jane,Emma,Elizabeth,Elinor,Mary,Darcy,Grey,Lydia,
 
 var arrFriends = friends.split(',');
 
-console.log(arrFriends.sort());
+console.log(arrFriends.sort().join(' '));

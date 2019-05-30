@@ -22,6 +22,6 @@ var foods = [
     'Pizza'
   ];
 
-  console.log(foods.splice(4, 6));
+  console.log(foods.slice(4, 9));
 
   console.log(foods);
